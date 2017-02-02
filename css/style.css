@@ -1,5 +1,24 @@
+/*** styling cards ***/
 
-li {
+ul li {
+	width: 30%;
+	display: inline-block;
+	text-align: center;
+	border: solid 1px lightblue;
+	margin-right: 2%;
+	margin-bottom: 2%;
 
-	max-width: 30%;
+}
+
+/*** title of the card ***/
+h2.title {
+	border: dotted 1px lightgray;
+	text-align: center;
+}
+
+/*** availability of the  ***/
+
+p.ava {
+	background-color: grey;
+	text-align: left;
 }
