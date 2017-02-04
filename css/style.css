@@ -1,0 +1,64 @@
+/*** styling cards ***/
+
+ul li {
+	width: 30%;
+	display: inline-block;
+	text-align: center;
+	border: solid 1px lightblue;
+	margin-right: 2%;
+	margin-bottom: 2%;
+
+
+}
+
+/*** title of the card ***/
+h2.title {
+	border: dotted 1px lightgray;
+	text-align: center;
+}
+
+/*** availability of the  ***/
+
+p.ava {
+	background-color: grey;
+	text-align: left;
+	/*padding-left: 15px;*/
+	color: yellow;
+}
+
+/*** styling the descriptionof the card  ***/
+p.parapraph {
+
+	margin: 0 25px 0 25px;
+}
+
+/*** styling the the second part of the card  ***/
+div:not(footer) {
+	line-height: .3em;
+	text-align: left;
+	padding-left: 25px;
+}
+
+footer#foot {
+	font-size: .8em;
+	padding-left: -25px;/* asking the big sibl how to target the 
+	footer in the second part of the card as a not pseudo element
+	 to go all the way to the left */ 
+}
+
+/*** styling the the third part of the card  ***/
+
+div.price {
+	line-height: .3em;
+	text-align: left;
+	padding-left: 25px;
+}
+
+
+
+
+
+
+
+
+
